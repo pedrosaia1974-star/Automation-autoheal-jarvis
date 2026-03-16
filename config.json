@@ -1,0 +1,1 @@
+{\n  \"apiEndpoints\": {\n    \"getUser\": \"https://api.example.com/user\",\n    \"getStatus\": \"https://api.example.com/status\"\n  },\n  \"retryLogic\": {\n    \"maxRetries\": 5,\n    \"retryDelay\": 3000\n  },\n  \"heartbeatInterval\": 60000,\n  \"automationSettings\": {\n    \"enabled\": true,\n    \"schedule\": \"0 0 * * *\"\n  }\n}
